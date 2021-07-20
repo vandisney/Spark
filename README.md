@@ -5,23 +5,23 @@ Exercícios – Testar o Jupyter Notebook
 1. Criar o arquivo do notebook com o nome teste_spark.ipynb
 
 new, clicar em pyspark, já vem com a sessão(explicar) e o contexto de spark(explicar) criado.
-<img src="https://github.com/vandisney/Spark/blob/main/imagens/sessao.jpg"/>
-<img src="https://github.com/vandisney/Spark/blob/main/imagens/sessão2.jpg"/>
+<img src="https://github.com/vandisney/Spark/blob/main/imagens/sessao.png"/>
+<img src="https://github.com/vandisney/Spark/blob/main/imagens/sessao2.png"/>
 
 2. Obter as informações da sessão de spark (spark)
 
 precionando spark + (chift+enter)do teclado, ele executa a celula e cria uma nova célula em baixo.
 nessa sessão do spark tem um contexto, tem a interface grafica, qual a versão e modo que está rodando.
-<img src="https://github.com/vandisney/Spark/blob/main/imagens/sessão3.jpg"/>
+<img src="https://github.com/vandisney/Spark/blob/main/imagens/sessao3.png"/>
 
 3. Obter as informações do contexto do spark (sc)
 Digita sc + (ctrl+enter), executa porém não é criado nova célula.
 
 
 4. Setar o log como INFO.
-<img src="https://github.com/vandisney/Spark/blob/main/imagens/sessão4.jpg"/>
+<img src="https://github.com/vandisney/Spark/blob/main/imagens/sessao4.png"/>
 faz parte da sessão do spark, para isso digita spark. (+ tab)
- <img src="https://github.com/vandisney/Spark/blob/main/imagens/sessão5.jpg"/>
+ <img src="https://github.com/vandisney/Spark/blob/main/imagens/sessao5.png"/>
 
 5. Visualizar todos os banco de dados com o catalog
 
