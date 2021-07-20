@@ -39,13 +39,25 @@ Conforme a imagem, foi possível notar a configuração do hdfs em locationUri, 
 
 
 7. Salvar o Dataframe como juros no formato de tabela Hive
+8. usado o comando 'leitura_juros.write.saveAsTable("juros")
+ <img src="https://github.com/vandisney/Spark/blob/main/imagens/sessao8.png"/>
 
 8. Visualizar todas as tabelas com o catalog
+9. Criado através do comando 'spark.catalog.listTables()
+ <img src="https://github.com/vandisney/Spark/blob/main/imagens/sessao9.png"/>
 
 9. Visualizar no hdfs o formato e compressão que está a tabela juros do Hive
+'!hdfs dfs -ls /user/hive/warehouse/juros'
+ <img src="https://github.com/vandisney/Spark/blob/main/imagens/sessao10.png"/>
 
 10. Ler e visualizar os dados da tabela juros, com uso de Dataframe no formato de Tabela Hive
+spark.read.table("juros").show(5)
+
+ <img src="https://github.com/vandisney/Spark/blob/main/imagens/sessao11.png"/>
 
 11. Ler e visualizar os dados da tabela juros , com uso de Dataframe no formato Parquet
+spark.read.parquet("/user/hive/warehouse/juros/").show(5)
+<img src="https://github.com/vandisney/Spark/blob/main/imagens/sessao12.png"/>
 
-12. Clicar no botão de Enviar Tarefa, e enviar o texto: ok
+
+OBS: EM DESENVOLVIMENTO
